@@ -1,0 +1,17 @@
+{
+  "name": "lvrg-mcp",
+  "version": "1.0.0",
+  "description": "LVRG Lead Magnet Engine — MCP Server",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@supabase/supabase-js": "^2.49.4",
+    "dotenv": "^17.4.2",
+    "node-fetch": "^3.3.2"
+  }
+}
